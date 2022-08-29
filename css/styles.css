@@ -309,6 +309,7 @@ ul {
 
 .work {
   display: flex;
+  align-items: center;
 }
 
 .work .item + .item {
@@ -484,6 +485,7 @@ ul {
 }
 .logo-footer {
   margin-bottom: 20px;
+  padding: 0;
 }
 
 .logo-ft-cl {
