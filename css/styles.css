@@ -180,7 +180,6 @@ ul {
   | Hero
   |============================
 */
-/* Hero */
 
 .hero {
   padding-top: 200px;
@@ -240,7 +239,11 @@ ul {
   background-color: var(--active-bt-cl);
 }
 
-/* Features */
+/**
+  |============================
+  | Features
+  |============================
+*/
 
 .section {
   padding-top: 94px;
@@ -285,14 +288,20 @@ ul {
 
 .features-subtitle {
   margin-bottom: 10px;
-  color: var(--heading-txt-cl);
 
+  color: var(--heading-txt-cl);
   font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
 
-/* Work  */
+/**
+  |============================
+  | Work
+  |============================
+*/
 
 .work-section {
   padding-top: 0;
@@ -308,7 +317,11 @@ ul {
   display: block;
 }
 
-/* Team */
+/**
+  |============================
+  | Team
+  |============================
+*/
 
 .team-section {
   background-color: var(--section-bg-cl);
@@ -354,9 +367,11 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/* Portfolio */
-
-/* filters */
+/**
+  |============================
+  | Portfolio filters 
+  |============================
+*/
 
 .portfolio-filters {
   display: flex;
@@ -390,6 +405,8 @@ ul {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
+  padding: 6px 25px;
+
   color: var(--light-txt-cl);
   font-weight: 500;
   font-size: 16px;
@@ -406,7 +423,12 @@ ul {
   /* padding: 6px 25px; */
 }
 
-/* gallery */
+/**
+  |============================
+  | Portfolio gallery
+  |============================
+*/
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -460,6 +482,7 @@ ul {
   | Footer
   |============================
 */
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
